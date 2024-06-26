@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="renderer" content="webkit" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+    <link rel="icon" href="/favicon.ico" />
+    <title>Online-Exam</title>
+    <!--[if lt IE 11
+      ]><script>
+        window.location.href='/html/ie.html';
+      </script><!
+    [endif]-->
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      html, body {
+        height: 100%;
+      }
+
+      .loader {
+        width: 400px;
+        height: 40px;
+        background-color: #ddd;
+        top: 50%;
+        left: 50%;
+        margin: -40px -200px;
+        position: absolute;
+        border-radius: 100px;
+        box-shadow: inset 0 0 0 2px rgba(0, 0, 0, 0.05);
+      }
+
+      .loader:after {
+        border-radius: 100px;
+        content: "";
+        position: absolute;
+        background-color: #fff;
+        left: 2px;
+        top: 2px;
+        bottom: 2px;
+        right: 360px;
+        animation-name: slide;
+        animation-duration: 2s;
+        animation-easing-function: linear;
+        animation-iteration-count: infinite;
+        box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+      }
+
+      @keyframes slide {
+        0% {
+          right: 360px;
+          left: 2px;
+        }
+        5% {
+          left: 2px;
+        }
+        50% {
+          right: 2px;
+          left: 360px;
+        }
+        55% {
+          right: 2px;
+        }
+        100% {
+          right: 360px;
+          left: 2px;
+        }
+      }
+
+    </style>
+  </head>
+
+  <body>
+    <div id="app">
+      <div id="loader-wrapper">
+        <div class="loader"></div>
+      </div>
+    </div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
