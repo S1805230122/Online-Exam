@@ -2,6 +2,9 @@
 
 **Online-Exam**功能
 
+演示视频
+https://pan.baidu.com/s/1BTvsVIGnYOiTOaBMsOBWkA?pwd=4hbh 
+
 **教师端：**
 
 题库管理：可以通过标签进行筛选；题目数量统计；题目题型统计；题目总分计算；
