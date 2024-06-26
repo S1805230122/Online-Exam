@@ -1,7 +1,6 @@
 <img src="http://39.108.97.166:9000/system-xyz/online-exam/2024/06/12/a674e6e9bb284737a15ee37aa0d34ffe.png" width="50%" height="50%">
+
 **Online-Exam**功能
-
-
 **教师端：**
 
 题库管理：可以通过标签进行筛选；题目数量统计；题目题型统计；题目总分计算；
